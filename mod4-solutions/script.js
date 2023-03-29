@@ -1,16 +1,15 @@
 (function () {
 
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+var names = ["amine", "salim", "Jamal", "jamila", "Panice", "fatima", "nassim", "reda", "salma", "jaafar"];
 
 for (var i = 0; i < names.length; i++) {
   var firstLetter = names[i].charAt(0).toLowerCase();
 
   if (firstLetter === 'j') {
-    byeSpeaker(names[i]);
+    document.write("bye(names[i])");
   }
   else {
-    helloSpeaker(names[i]);
-  }
+    document.write("hello(names[i])");  }
 }
 
 })();
